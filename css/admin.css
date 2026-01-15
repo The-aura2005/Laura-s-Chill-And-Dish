@@ -1,0 +1,60 @@
+/*
+Author:Laura Wanjala;
+Theme:Food-order website;
+Version:1.0;
+*/
+* {
+    margin:0 ;
+    padding:0 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+/*css for menu*/
+.menu {
+    border: 1px solid black;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-weight: bold;
+  color: #ff6b81;
+}
+.menu ul li a:hover {
+    color: #ff4757;
+}
+/*css for main-content*/
+.main-content {
+    background-color: #ececec;
+    padding: 3%;
+}
+.col-4 {
+    width: 15%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/*css for footer*/
+.footer {
+     background-color: #ff6b81;
+     color: white;
+}
